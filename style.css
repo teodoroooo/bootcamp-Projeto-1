@@ -31,7 +31,7 @@
 .container {
     position: absolute;
     width: 600px;
-    height: 50%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,6 +53,7 @@
 
 .paragrafos {
     color: #FFFFFF;
+    font-weight: 800;
 }
 
 .paragrafos p, h3, h2 {
@@ -64,6 +65,10 @@
 
 .box-votacao {
     background: linear-gradient(black, red);
+    height: 700px;
+    border-color:aqua;
+    border: #FFFFFF;
+    border-radius: 10px;
 }
 
 .title {
@@ -83,6 +88,7 @@
 }
 
 input {
+    margin-bottom: 20px;
     outline:auto;
     height: 40px;
     width: 500px;
@@ -98,4 +104,22 @@ input {
 
 #text, #email {
     text-align: center;
+}
+
+.banners {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.banners img {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.banners img:hover{
+    transform: scale(1.2) translateY(-10px);
 }
