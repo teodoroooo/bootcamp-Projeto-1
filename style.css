@@ -123,3 +123,40 @@ input {
 .banners img:hover{
     transform: scale(1.2) translateY(-10px);
 }
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.buttons button {
+    width: 100px;
+    height: 30px;
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    cursor: pointer;
+    transition: transform ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: red;
+}
+
+.site-footer {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    padding: 10px 20px;
+    position: absolute;
+    top: 850px;
+}
+
+.site-footer p {
+    margin: 0;
+}
